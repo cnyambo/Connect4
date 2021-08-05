@@ -19,8 +19,7 @@
    // TODO: set "board" to empty HEIGHT x WIDTH matrix array
    for (let y = 0; y < HEIGHT; y++) {
      board.push([...Array(WIDTH)]);
-    //board.push(Array.from({ length: WIDTH }));
-    //board.length++;
+      //board.length++;
     //board.push(Array(7));
    }
  }
